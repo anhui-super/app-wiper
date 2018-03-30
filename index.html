@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>手机滑屏</title>
+    <script type="text/javascript" src="appswiper.js"></script>
+    <style>
+        /*样式*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .juo_container,.juo_swiper,.juo_item{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            top: 0;
+            transition: all 0.4s;
+            text-align: center;
+        }
+        .juo_container{
+            overflow: hidden;
+        }
+      
+
+        /*------*/
+        .juo_item:nth-child(1){
+            background-color: red
+        }
+        .juo_item:nth-child(2){
+            background-color: yellow
+        }
+        .juo_item:nth-child(3){
+            background-color: blur
+        }
+        .juo_item:nth-child(4){
+            background-color: orange
+        }
+    </style>
+</head>
+<body>
+    <div class="juo_container">
+        <div class="juo_swiper">
+            <div class="juo_item">juooo1</div>
+            <div class="juo_item">juooo2</div>
+            <div class="juo_item">juooo3</div>
+            <div class="juo_item">juooo4</div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var Juo = new Juooo();
+        Juo.creatJuoo('juo_swiper')
+    </script>
+</body>
+</html>
