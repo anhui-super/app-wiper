@@ -13,8 +13,8 @@
 
 
 #### js调用 <br>
-\var Juo = new Juooo();<br>
-\Juo.creatJuoo('juo_swiper')<br>
+var Juo = new Juooo();<br>
+Juo.creatJuoo('juo_swiper')<br>
 
 
 
